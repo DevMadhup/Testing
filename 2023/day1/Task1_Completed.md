@@ -10,4 +10,4 @@ Ans :- **Automation:**  Devops automation is the addition technology that perfor
        **Infrastructure:**  Infrastructure is nothing but the servers which we use in organizations. 
 ***5) Why DevOps is Important ?***
 Ans :- DevOps is important because it's a software development and operations approach that enables faster development of new products and easier maintenance of existing deployments.
-.
+
