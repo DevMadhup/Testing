@@ -41,7 +41,7 @@ In case of Doubts, post it in Discord Channel for #90DaysOfDevOps
 
 ANSWER:-
 
-                #!/bin/bash
+               #!/bin/bash
 
                 src=/home/ec2-user/scripts;
                 trg=/home/ec2-user/backups;
@@ -50,9 +50,12 @@ ANSWER:-
 
                 #echo "$curr_time";
 
-                filename=backup-$curr_time.tgz;
-                echo "Taking Backup";
+                filename=BackupOfScripts_$curr_time.tgz;
+                echo "Taking Backup on $curr_time";
+                sleep 2;
+                echo "----------------------------------------";
 
-                tar czf $filename --absolute-names /home/ec2-user/scripts;
+                tar czf $filename $src --absolute-names;
                 sleep 3;
-                #echo "Backup Completed on $trg at $curr_time";
+                mv $filename $trg;
+                echo "Backup Completed on $trg at $curr_time";
