@@ -35,4 +35,19 @@ ANSWER:-
                
                So, command looks like 
                                         chmod 754 file1.txt
+                                        
+3) Read about ACL and try out the commands getfacl and setfacl.
+ANSWER:- ACL ---> It allows you to give more specific permissions to a file or directory without changing the base ownership and permissions.
+         Commands ---> getfacl and setfacl
+         
+         i) For adding permissions for user 
+         ---> setfacl -m "u:<username>:<permission>" <filename>
+         ii) For adding permissions for group 
+         ---> getfacl -m "g:<username>:<permission>" <filename>
+         iii) To remove a specific entry 
+         ---> setfacl -x "u:<username>" <filename>
+         iv) To remove all entries 
+         ---> setfacl -b <targetfile>
+         v) For adding permissions for user in all files inside a folder 
+         ---> setfacl -Rm "u:<username>:<permission>" <directory>
 
