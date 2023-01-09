@@ -47,3 +47,4 @@ ANSWER:-
                 11)  sudo systemctl enable jenkins
                 12)  sudo systemctl start jenkins
                 13)  sudo systemctl status jenkins
+   
