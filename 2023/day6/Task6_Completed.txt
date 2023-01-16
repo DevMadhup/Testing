@@ -43,7 +43,7 @@ ANSWER:- ACL ---> It allows you to give more specific permissions to a file or d
          i) For adding permissions for user 
          ---> setfacl -m "u:<username>:<permission>" <filename>
          ii) For adding permissions for group 
-         ---> getfacl -m "g:<username>:<permission>" <filename>
+         ---> setfacl -m "g:<username>:<permission>" <filename>
          iii) To remove a specific entry 
          ---> setfacl -x "u:<username>" <filename>
          iv) To remove all entries 
