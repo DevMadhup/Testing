@@ -1,0 +1,20 @@
+1) What is Git and why is it important?
+Ans:-  
+      Git is a DevOps tools. It is an open source version control system which helps developers to store, manage their code.
+      
+2) What is difference Between Main Branch and Master Branch??
+Ans:- There is no difference between Main Branch and Master Branch. Github recently renamed from Main branch to Master Branch.
+
+3) Can you explain the difference between Git and GitHub?
+Ans:-
+      Git:- Git is an open source version control system.
+      Github:- GitHub is an open source cloud-based git repository helps developers to store their codes.
+      
+4) How do you create a new repository on GitHub?
+Ans:-
+      1) Open your GitHub account and navigate to top right corner and click on profile dropdown option.
+      2) Click on New option present at the top right corner 
+      3) Enter the name of the repository 
+      4) Click on Submit and your repository is created succesfully.
+      
+5) 
