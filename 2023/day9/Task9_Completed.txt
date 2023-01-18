@@ -57,19 +57,23 @@ Ans:-
     Example --> git remote set-url origin https://github.com/DevMadhup/django-todo-cicd.git
     
 3) Create a new file in Devops/Git/Day-02.txt & add some content to it
-Push your local commits to the repository on GitHub
-reff :- https://youtu.be/AT1uxOLsCdk
 Ans:-
-     STEPS TO CREATE FILE AND PUSH FILE TO GITHUB REPOSITORY
-     
-     1) vi file1
+      STEPS TO CREATE FILE
+      
+     1) vi Devops/Git/Day-02.txt
      2) press I to write something in a file
      3) add some content to it and press Esc+:+wq
-     4) After this, go to github repository and create new repository 
-     5) Now move to git server 
-     6) git remote -v
-     7) git remote set-url origin https://github.com/DevMadhup/django-todo-cicd.git
-     8) git push origin master
+
+4) Push your local commits to the repository on GitHub
+reff :- https://youtu.be/AT1uxOLsCdk
+Ans:-
+     PUSH FILE TO GITHUB REPOSITORY
+     
+     1) After this, go to github repository and create new repository 
+     2) Now move to git server 
+     3) git remote -v
+     4) git remote set-url origin https://github.com/DevMadhup/django-todo-cicd.git
+     5) git push origin master
      
      
 
