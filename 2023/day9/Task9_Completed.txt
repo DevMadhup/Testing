@@ -47,10 +47,29 @@ Task-2:
 Ans:-
       1) Open your GitHub account and navigate to top right corner and click on profile dropdown option.
       2) Click on New option present at the top right corner 
-      3) Enter the Devops of the repository 
+      3) Enter the Devops as the name of the repository 
       4) Click on Submit and your repository is created succesfully.
       
-Connect your local repository to the repository on GitHub.
-Create a new file in Devops/Git/Day-02.txt & add some content to it
+2) Connect your local repository to the repository on GitHub.
+Ans:-
+      git remote -v ( if your remote repository is not connected to local then use no.2 command )
+      git remote set-url origin <Remote_Repo_URL>
+    Example --> git remote set-url origin https://github.com/DevMadhup/django-todo-cicd.git
+    
+3) Create a new file in Devops/Git/Day-02.txt & add some content to it
 Push your local commits to the repository on GitHub
 reff :- https://youtu.be/AT1uxOLsCdk
+Ans:-
+     STEPS TO CREATE FILE AND PUSH FILE TO GITHUB REPOSITORY
+     
+     1) vi file1
+     2) press I to write something in a file
+     3) add some content to it and press Esc+:+wq
+     4) After this, go to github repository and create new repository 
+     5) Now move to git server 
+     6) git remote -v
+     7) git remote set-url origin https://github.com/DevMadhup/django-todo-cicd.git
+     8) git push origin master
+     
+     
+
