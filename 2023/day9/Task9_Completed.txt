@@ -17,4 +17,13 @@ Ans:-
       3) Enter the name of the repository 
       4) Click on Submit and your repository is created succesfully.
       
-5) 
+5) What is difference between local & remote repository? How to connect local to remote ?
+Ans:-
+      Local repository is a repository which is present in your own local machine.
+      Remote repository is a repository which is present in github repository.
+      
+      HOW TO CONNECT LOCAL TO REMOTE:-
+      
+      git remote -v ( if your remote repository is not connected to local then use no.2 command )
+      git remote set-url origin <Remote_Repo_URL>
+    Example --> git remote set-url origin https://github.com/DevMadhup/django-todo-cicd.git
