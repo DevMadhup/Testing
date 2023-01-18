@@ -69,11 +69,13 @@ reff :- https://youtu.be/AT1uxOLsCdk
 Ans:-
      PUSH FILE TO GITHUB REPOSITORY
      
-     1) After this, go to github repository and create new repository 
+     1) go to github repository and create new repository 
      2) Now move to git server 
      3) git remote -v
      4) git remote set-url origin https://github.com/DevMadhup/django-todo-cicd.git
-     5) git push origin master
+     5) git add Day-02.txt
+     6) git commit -m "Updated File"
+     7) git push origin master
      
      
 
