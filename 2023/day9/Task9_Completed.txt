@@ -27,3 +27,30 @@ Ans:-
       git remote -v ( if your remote repository is not connected to local then use no.2 command )
       git remote set-url origin <Remote_Repo_URL>
     Example --> git remote set-url origin https://github.com/DevMadhup/django-todo-cicd.git
+    
+    
+TASKS:-
+
+Task-1:
+
+Set your user name and email address, which will be associated with your commits.
+Ans:-
+     TO SET USERNAME IN GIT:-
+  ---> git config --global user.name "Madhup Pandey"
+     
+     TO SET EMAIL IN GIT:-
+  ---> git config --global user.email "madhuppandey2908@gmail.com"
+  
+Task-2:
+
+1) Create a repository named "Devops" on GitHub
+Ans:-
+      1) Open your GitHub account and navigate to top right corner and click on profile dropdown option.
+      2) Click on New option present at the top right corner 
+      3) Enter the Devops of the repository 
+      4) Click on Submit and your repository is created succesfully.
+      
+Connect your local repository to the repository on GitHub.
+Create a new file in Devops/Git/Day-02.txt & add some content to it
+Push your local commits to the repository on GitHub
+reff :- https://youtu.be/AT1uxOLsCdk
